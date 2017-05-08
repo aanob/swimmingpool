@@ -1,12 +1,11 @@
-package com.ekiert.dziamdziara.swimmingpool;
+ package com.ekiert.dziamdziara.swimmingpool;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-/**
- * Created by Dziamdziara on 2017-04-27.
- */
+
+
 
 public class Splash extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,11 +14,11 @@ public class Splash extends Activity {
         Thread timer = new Thread() {
             public void run() {
                 try {
-                    sleep(5000);
+                    sleep(50000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 } finally {
-                    Intent openStartingPoint = new Intent("com.ekiert.dziamdziara.swimmingpool.MENU");
+                    Intent openStartingPoint = new Intent("com.ekiert.dziamdziara.swimmingpool.ACTIVITY");
                     startActivity(openStartingPoint);
                 }
             }
