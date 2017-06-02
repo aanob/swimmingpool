@@ -9,9 +9,9 @@ import android.widget.EditText;
 public class Home2 extends Activity implements View.OnClickListener{
     EditText input;
 
-    private void search(){
-        input = (EditText) findViewById(R.id.etSearch);
+  //  private void search(){
+   //     input = (EditText) findViewById(R.id.etSearch);
 
-    }
+//    }
     public void onClick(View view) {}
 }
