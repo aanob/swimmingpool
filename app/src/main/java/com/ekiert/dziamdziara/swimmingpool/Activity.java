@@ -17,12 +17,15 @@ import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.model.LatLng;
 
-public class Activity extends AppCompatActivity {
+
+public class Activity extends AppCompatActivity implements OnMapReadyCallback {
+
+    GoogleMap mGoogleMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -53,7 +56,6 @@ public class Activity extends AppCompatActivity {
 
             }
         });
-
         if(googleServicesAvailable()) {
             Toast.makeText(this, "Polaczono!", Toast.LENGTH_SHORT).show();
             setContentView(R.layout.activity_main);
@@ -99,7 +101,6 @@ public class Activity extends AppCompatActivity {
         LatLng ll = new LatLng(lat, lng);
         CameraUpdate update = CameraUpdateFactory.newLatLngZoom(ll, zoom);
         mGoogleMap.moveCamera(update);
-    }
     }
 
 //    @Override
