@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01"
+        android:ems="10"
+        android:textSize="25dp"
+        android:inputType="textPersonName"
+        android:text="Informacje o aplikacji" />
+
+    <TextView
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01"
+        android:ems="10"
+        android:textSize="15dp"
+        android:text="Aplikacja została stworzona na zaliczenie z przedmiotu ''Zarządzanie projektami informatycznymi''" />
+
+    <TextView
+        android:id="@+id/editText7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01"
+        android:ems="10"
+        android:textSize="15dp"
+        android:text="Realizacja: Zaprojektowanie i stworzenie aplikacji: Barbara Ekiert i Paweł Borysewicz " />
+
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01"
+        android:ems="10"
+        android:textSize="15dp"
+        android:text="Grafiki: Denis Czerner"  />
+
+    <TextView
+        android:id="@+id/editText8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02"
+        android:ems="10"
+        android:textSize="15dp"
+        android:autoLink="web"
+        android:text="Cały projekt jest dostępny na GitHubie: https://github.com/bonaa"/>
+
+    <TextView
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Używanie aplikacji"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:ems="10"
+        android:textSize="15dp"
+        android:text="Aplikacja działa najlepiej z połączeniem internetowym. Wtedy wyświetlana jest mapa" />
+
+</LinearLayout>

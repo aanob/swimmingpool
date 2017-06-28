@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/CB1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pływalnia kryta" />
+    <CheckBox
+        android:id="@+id/CB2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pływalnia niekryta" />
+    <CheckBox
+        android:id="@+id/CB3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Basen sportowy &lt;= 25m" />
+
+    <CheckBox
+        android:id="@+id/CB4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Basen sportowy > 25m" />
+    <CheckBox
+        android:id="@+id/CB5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Brodzik" />
+    <CheckBox
+        android:id="@+id/CB6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jacuzzi" />
+    <CheckBox
+        android:id="@+id/CB7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sauna" />
+    <CheckBox
+        android:id="@+id/CB8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zjeżdżalnia" />
+
+    <CheckBox
+        android:id="@+id/CB9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nauka pływania" />
+
+    <Button
+        android:id="@+id/bSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Szukaj" />
+</LinearLayout>
